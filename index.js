@@ -4,28 +4,18 @@ const showBtn = document.querySelector("#show-btn");
 const result = document.querySelector("#result");
 
 
-// PROCESSING
-
 function reversedStr(str) {
     var charList = str.split("")
     var reversedList = charList.reverse("")
     var joinList = reversedList.join("")
 
     return joinList
-    // return str.split("").reverse("").join("")
 }
 
 function isPalindrome(str) {
     var reverse = reversedStr(str);
 
     return str === reverse;
-
-    // **function returns boolean value
-    // if (str === reverse) {
-    //   return true
-    // } else {
-    //   return false
-    // }
 }
 
 
@@ -66,7 +56,7 @@ function getAllDateFormats(date) {
 }
 
 function checkPalindromeForAllDateFormats(date) {
-    var listOfDates = getAllDateFormats(date);
+    var listOfDates = ;
     var flag = false;
 
     for (var i = 0; i < listOfDates.length; i++) {

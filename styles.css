@@ -11,40 +11,37 @@ body {
 }
 
 button {
+    font-size: 3vh;
     background-color:#c8b719;
     border-color: #c7b830;
-    border-radius: 1rem;
-    border-width: 0.2rem;
-    font-weight:600;
+    border-radius: 0.75rem;
+    font-weight: bolder;
     cursor: pointer;
     display: block;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 6rem;
     padding: 1rem 2rem;
-    font-size: 5vh;
-    font-family: 'gluten';
 }
 
 
 #dob {
     display: block;
     cursor: text;
-    margin: auto;
-    margin-top: 3rem;
-    border-width: 0.2rem;
-    border-radius: 0.5rem;
+    margin: auto auto;
+    margin-top: 4rem;
+    border-radius: 0.75rem;
     padding: 1rem 5rem;
     background-color: #c7be45;
     border-color: #4d491d;
-    font-size: large;
+    font-size: xx-large;
 }
 
 h1 {
     text-align: center;
     background-color: #b6b90d;
     height: 7rem;
-    padding-top: 2rem;
-    font-size: 50px;
+    padding-top: 3rem;
+    font-size: 55px;
 
 }
 

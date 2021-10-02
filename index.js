@@ -56,7 +56,7 @@ function getAllDateFormats(date) {
 }
 
 function checkPalindromeForAllDateFormats(date) {
-    var listOfDates = ;
+    var listOfDates = getAllDateFormats(date);
     var flag = false;
 
     for (var i = 0; i < listOfDates.length; i++) {
